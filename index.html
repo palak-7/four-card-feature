@@ -13,17 +13,6 @@
     />
 
     <title>Frontend Mentor | Four card feature section</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 0.6875rem;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
     <link rel="stylesheet" href="index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,28 +24,43 @@
   <body>
     <main>
       <div class="heading">
-        <p class="heading1">Reliable, efficient delivery</p>
-        <h1 class="heading2">Powered by Technology</h1>
-        <p class="subheading">
+        <p class="subheading">Reliable, efficient delivery</p>
+        <h1 class="main-heading">Powered by Technology</h1>
+        <p class="heading-para">
           Our Artificial Intelligence powered tools use millions of project data
           points to ensure that your project is successful
         </p>
       </div>
       <div class="cards">
         <div class="left">
-          <div>Supervisor Monitors activity to identify project roadblocks</div>
+          <div class="card supervisor">
+            <h2>Supervisor</h2>
+            <p>Monitors activity to identify project roadblocks</p>
+            <div><img src="images/icon-supervisor.svg" alt="" /></div>
+          </div>
         </div>
         <div class="center">
-          <div>
-            Team Builder Scans our talent network to create the optimal team for
-            your project
+          <div class="card team-builder">
+            <h2>Team Builder</h2>
+            <p>
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+            <div><img src="images/icon-team-builder.svg" alt="" /></div>
           </div>
-          <div>Karma Regularly evaluates our talent to ensure quality</div>
+          <div class="card karma">
+            <h2>Karma</h2>
+            <p>Regulary evaluates our talent to ensure quality</p>
+            <div><img src="images/icon-karma.svg" alt="" /></div>
+          </div>
         </div>
         <div class="right">
-          <div>
-            Calculator Uses data from past projects to provide better delivery
-            estimates
+          <div class="card calculator">
+            <h2>Calculator</h2>
+            <p>
+              Uses data from past projects to provide better delivery estimates
+            </p>
+            <div><img src="images/icon-calculator.svg" alt="" /></div>
           </div>
         </div>
       </div>
